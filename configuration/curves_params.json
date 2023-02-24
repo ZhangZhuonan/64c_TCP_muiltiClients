@@ -1,0 +1,53 @@
+{
+    "name": "波形显示参数",
+    "params_num": 8,
+    "savePath": "configuration\\curves_params.json",
+    "p0": {
+        "name": "采样率",
+        "type": "int",
+        "unit": "points/s(重启软件后生效)",
+        "val": 500
+    },
+    "p1": {
+        "name": "波形刷新周期",
+        "type": "int",
+        "unit": "s",
+        "val": 5
+    },
+    "p2": {
+        "name": "中值滤波",
+        "type": "bool",
+        "unit": "",
+        "val": true
+    },
+    "p3": {
+        "name": "低通截止频率",
+        "type": "float",
+        "unit": "",
+        "val": 0.4
+    },
+    "p4": {
+        "name": "高通截止频率",
+        "type": "float",
+        "unit": "",
+        "val": 150.0
+    },
+    "p5": {
+        "name": "带通滤波",
+        "type": "bool",
+        "unit": "",
+        "val": true
+    },
+    "p6": {
+        "name": "抗工频干扰",
+        "type": "bool",
+        "unit": "",
+        "val": true
+    },
+    "p7": {
+        "name": "纵向缩放",
+        "type": "float",
+        "unit": "",
+        "val": 0.2
+    }
+}
